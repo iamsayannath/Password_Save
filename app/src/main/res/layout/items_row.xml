@@ -6,7 +6,9 @@
     android:layout_height="wrap_content"
     android:gravity="center_vertical"
     android:orientation="horizontal"
-    android:padding="10dp">
+    android:layout_marginBottom="10dp"
+    android:padding="10dp"
+    android:background="@drawable/item_row_background">
 
     <TextView
         android:id="@+id/tvName"
@@ -32,7 +34,7 @@
         android:layout_weight="1"
         android:textColor="@android:color/black"
         android:textSize="16sp"
-        tools:text="Email" />
+        tools:text="Password" />
 
     <ImageView
         android:id="@+id/ivEdit"

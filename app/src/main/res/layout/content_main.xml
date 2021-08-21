@@ -21,11 +21,13 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.25"
             android:text="Name"
+            android:textColor="@color/main"
             android:textSize="18sp" />
 
         <EditText
             android:id="@+id/etName"
             android:layout_width="0dp"
+            android:textColor="@color/main"
             android:layout_height="wrap_content"
             android:layout_weight="0.75"
             android:hint="Enter Name" />
@@ -41,7 +43,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.25"
-            android:text="Email ID"
+            android:text="Password"
+            android:textColor="@color/main"
             android:textSize="18sp" />
 
         <EditText
@@ -49,7 +52,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.75"
-            android:hint="Enter Email ID"
+            android:hint="Enter Password"
             android:inputType="textEmailAddress" />
     </LinearLayout>
 
@@ -57,7 +60,9 @@
         android:id="@+id/btnAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ADD RECORD" />
+        android:text="ADD RECORD"
+        android:background="@color/main"
+        android:textColor="@color/colorWhite"/>
 
 
     <LinearLayout
@@ -73,6 +78,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:textColorHint="@color/main"
             android:text="All the inserted records."
             android:textColor="@android:color/black"
             android:textSize="18sp"
@@ -92,6 +98,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:text="No records available!!!"
+        android:textColor="@color/main"
         android:textSize="18sp"
         android:visibility="gone"
         tools:visibility="visible" />
